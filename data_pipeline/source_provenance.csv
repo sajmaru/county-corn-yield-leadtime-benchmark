@@ -1,0 +1,13 @@
+feature_group,source_product_or_api,asset_or_endpoint,native_resolution,aggregation,main_outputs
+Yield,USDA NASS Quick Stats,https://quickstats.nass.usda.gov/api,county-year,county reported yield,yield_bu_acre yield_trend yield_anomaly
+Crop progress and condition,USDA NASS Quick Stats,https://quickstats.nass.usda.gov/api,state weekly,state-year aggregation,nass_wk_* nass_cond_*
+Weather,GRIDMET,IDAHO_EPSCOR/GRIDMET,4 km daily,county monthly and weekly means/sums (not crop-masked),tmax_* tmin_* precip_* vpd_* srad_* eto_*
+Heat stress,GRIDMET,IDAHO_EPSCOR/GRIDMET,4 km daily,county monthly sums (not crop-masked),gdd_* kdd_* edd_*
+Drought,GRIDMET drought,GRIDMET/DROUGHT,4 km 5-day,county monthly means (not crop-masked),spei90_* spi90_* pdsi_*
+Vegetation,MODIS MOD13Q1 V061,MODIS/061/MOD13Q1,250 m 16-day,prior-year (Y-1) CDL corn-masked county monthly means,ndvi_* evi_*
+LAI and FPAR,MODIS MOD15A2H V061,MODIS/061/MOD15A2H,500 m 8-day,prior-year (Y-1) CDL corn-masked county monthly means,lai_* fpar_*
+Land surface temperature,MODIS MOD11A2 V061,MODIS/061/MOD11A2,1 km 8-day,prior-year (Y-1) CDL corn-masked county monthly means,lst_day_* lst_night_*
+Soil profile,POLARIS,external POLARIS rasters,30 m / multi-depth,county summaries,soil_* depth-profile features
+Irrigation,LGRIP30,projects/sat-io/open-datasets/GFSAD/LGRIP30,30 m,county fractions,lgrip_irrigated_frac lgrip_cropland_frac
+Geography,Census boundaries and SRTM,US Census TIGER/GENZ; USGS/SRTMGL1_003,county polygons / 30 m,county geometry and mean elevation,lat lon area_km2 elevation_m
+Historical yield,USDA NASS Quick Stats,derived from county yield,county-year,past-year rolling features,yield_lag_* anomaly_lag*

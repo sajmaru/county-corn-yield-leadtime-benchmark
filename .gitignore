@@ -1,0 +1,43 @@
+# Python / environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local credentials and secrets — never commit real keys
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+
+# Downloaded or generated data (pull from Zenodo, or rebuild via data_pipeline)
+USA_data/
+*.csv
+*.csv.gz
+*.parquet
+*.png
+*.pkl
+*.joblib
+
+# Keep the committed provenance CSV (re-include after the *.csv rule above)
+!data_pipeline/source_provenance.csv
+
+# Generated outputs and pipeline caches
+reproducible_benchmark/outputs/
+data_pipeline/cache/
+data_pipeline/outputs/
+
+# Downloaded US Census boundary files
+geo/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Stray logs / run artifacts
+nohup.out
+*.out
+*.log

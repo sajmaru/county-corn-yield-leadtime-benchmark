@@ -1,0 +1,24 @@
+# Core reproduction dependencies (paper tables and lead-time analysis).
+# These are all you need for:
+#   reproducible_benchmark.scripts.validate_inputs / run_paper_tables /
+#   run_leadtime / run_leadtime_paper
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+
+# Source-data pipeline (rebuilding the matrix from public APIs/GEE).
+# Needed only for the data_pipeline/ scripts.
+requests
+earthengine-api
+geopandas
+shapely
+pyproj
+
+# Optional analysis extras (descriptive insights, exploratory notebooks).
+statsmodels
+seaborn
+xgboost
+shap
+ipykernel

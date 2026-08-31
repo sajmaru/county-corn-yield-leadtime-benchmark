@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "County-Level US Corn Yield Lead-Time Forecasting: Framework, Experiments, and Reproducible Benchmark"
+version: "1.0.0"
+date-released: 2026-08-31
+type: software
+license: MIT
+doi: "10.5281/zenodo.22190345"
+repository-code: "https://github.com/sajmaru/county-corn-yield-leadtime-benchmark"
+url: "https://doi.org/10.5281/zenodo.22190345"
+abstract: >-
+  Reproducible software for county-level, in-season United States corn yield
+  forecasting, including the lead-time framework, experimental workflows,
+  model comparisons, feature-group ablations, validation procedures, and
+  public-data pipeline used in the associated research.
+authors:
+  - given-names: Saj
+    family-names: Maru
+    orcid: "https://orcid.org/0009-0009-2520-7220"
+  - given-names: Radhika
+    family-names: Kotecha
+    orcid: "https://orcid.org/0000-0002-8837-196X"
+  - given-names: Parth
+    family-names: Maniar
+    orcid: "https://orcid.org/0009-0009-4359-4527"
+keywords:
+  - corn yield forecasting
+  - lead-time forecasting
+  - machine learning
+  - remote sensing
+  - reproducible research
