@@ -1,6 +1,7 @@
 # county-corn-yield-leadtime-benchmark
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22190344.svg)](https://doi.org/10.5281/zenodo.22190344)
+[![visitors](https://visitor-badge.laobi.icu/badge?page_id=sajmaru.county-corn-yield-leadtime-benchmark)](https://github.com/sajmaru/county-corn-yield-leadtime-benchmark)
 
 **County-Level US Corn Yield Lead-Time Forecasting Benchmark**
 
