@@ -5,7 +5,7 @@
 
 **County-Level US Corn Yield Lead-Time Forecasting Benchmark**
 
-**Authors:** Saj Maru, Radhika Kotecha, Parth Maniar
+**Authors:** Saj Maru, Parth Maniar, Radhika Kotecha
 
 Reproducible code for a county-level, in-season corn yield forecasting benchmark
 across the US Corn Belt (2000–2025). The benchmark measures how forecast skill
